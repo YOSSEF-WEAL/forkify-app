@@ -11,10 +11,6 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 console.log('test top 20');
 
-// if (module.hot)
-// {
-//   module.hot.accept();
-// }
 
 const controlRecipes = async function ()                                
 {
@@ -147,10 +143,7 @@ const controlAddRecipe = async function (newRecipe)
     addRecipeView.renderError(err.message);
   }
 };
-const newFeature = function ()
-{
-  console.log('Welcome to the app');
-};
+
 const init = function ()
 {
   bookMarksView.addHendlerRener(controlBookMarks);
@@ -160,7 +153,6 @@ const init = function ()
   seachView.addHadlerSeach(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHendlerUpload(controlAddRecipe);
-  newFeature();
 };
 init();
 

@@ -4,7 +4,7 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist",
+    "build": "rimraf dist && parcel build index.html --dist-dir ./dist",
     "clean": "rimraf dist"
   },
   "author": "Yossef",
@@ -19,10 +19,11 @@
     "immutable": "^5.0.3",
     "parcel": "^2.13.3",
     "regenerator-runtime": "^0.14.1",
-    "sass": "^1.84.0"
+    "sass": "^1.85.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.13.3",
+    "@svgr/webpack": "^8.1.0",
     "cssnano": "^7.0.6",
     "rimraf": "^6.0.1",
     "svgo": "^3.3.2"

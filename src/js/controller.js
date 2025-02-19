@@ -9,7 +9,6 @@ import addRecipeView from './views/addRecipeView.js';
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
-console.log('test top 20');
 
 
 const controlRecipes = async function ()                                

@@ -1,7 +1,6 @@
 import View from './view.js';
 // import icons from 'url:../../img/icons.svg';
-import icons from '/src/img/icons.svg';
-
+import icons from 'inline:../../img/icons.svg';
 // import { Fraction } from 'fractional';
 import Fraction from 'fraction.js';
 

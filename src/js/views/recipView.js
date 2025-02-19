@@ -1,5 +1,6 @@
 import View from './view.js';
 import icons from 'url:../../img/icons.svg';
+// import icons from new URL('../../img/icons.svg', import.meta.url);
 
 // import { Fraction } from 'fractional';
 import Fraction from 'fraction.js';
@@ -126,7 +127,7 @@ class RecipeView extends View
     return `  
         <li class="recipe__ingredient">
               <svg class="recipe__icon">
-                <use href="${icons}#icon-check"></use>
+                <use xlink:href="${icons}#icon-check"></use>
               </svg>
               <div class="recipe__quantity">${ing.quantity ? new Fraction(ing.quantity).toString() : ''}</div >
     <div class="recipe__description">

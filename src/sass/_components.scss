@@ -29,9 +29,11 @@
   font-size: 1.5rem;
   font-weight: 600;
 
-  svg {
+  svg,
+  i {
     height: 2.25rem;
     width: 2.25rem;
+    font-size: 2.25rem;
     fill: currentColor;
   }
 }
@@ -47,9 +49,12 @@
     padding: 1.25rem 2.25rem;
     text-decoration: none;
 
-    svg {
+    svg,
+    i {
       height: 1.75rem;
       width: 1.75rem;
+      font-size: 2.25rem;
+
       fill: currentColor;
     }
   }
@@ -69,10 +74,12 @@
   align-items: center;
   transition: all 0.2s;
 
-  svg {
+  svg,
+  i {
     height: 1.6rem;
     width: 1.6rem;
     fill: currentColor;
+    font-size: 2.25rem;
     margin: 0 0.2rem;
   }
 
@@ -112,10 +119,12 @@
     outline: none;
   }
 
-  svg {
+  svg,
+  i {
     height: 2.5rem;
     width: 2.5rem;
     fill: #fff;
+    font-size: 2.5rem;
   }
 }
 
@@ -126,9 +135,11 @@
   background: none;
   cursor: pointer;
 
-  svg {
+  svg,
+  i {
     height: 100%;
     width: 100%;
+    font-size: 2.25rem;
     fill: $color-primary;
     transition: all 0.3s;
   }
@@ -137,12 +148,14 @@
     outline: none;
   }
 
-  &:hover svg {
+  &:hover svg,
+  i {
     fill: $color-grad-2;
     transform: translateY(-1px);
   }
 
-  &:active svg {
+  &:active svg,
+  i {
     fill: $color-grad-2;
     transform: translateY(0);
   }
@@ -171,9 +184,12 @@
   margin: 5rem auto;
   text-align: center;
 
-  svg {
+  svg,
+  i {
     height: 6rem;
     width: 6rem;
+    font-size: 6rem;
+
     fill: $color-primary;
     animation: rotate 2s infinite linear;
   }
@@ -197,9 +213,12 @@
 
   display: flex;
 
-  svg {
+  svg,
+  i {
     height: 3rem;
     width: 3rem;
+    font-size: 3rem;
+
     fill: $color-primary;
     transform: translateY(-0.3rem);
   }

@@ -112,9 +112,12 @@
     margin-left: auto;
     margin-right: 1.75rem;
 
-    svg {
+    svg,
+    i {
       height: 2.25rem;
       width: 2.25rem;
+      font-size: 2.25rem;
+
       fill: $color-primary;
     }
   }

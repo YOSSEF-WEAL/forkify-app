@@ -25,11 +25,11 @@
     "svg": "^0.1.0"
   },
   "devDependencies": {
+    "@parcel/transformer-raw": "^2.13.3",
     "@parcel/transformer-sass": "^2.13.3",
     "@svgr/webpack": "^8.1.0",
     "cssnano": "^7.0.6",
     "rimraf": "^6.0.1",
-    "svgo": "^3.3.2",
-    "@parcel/transformer-raw": "^2.13.3"
+    "svgo": "^3.3.2"
   }
 }

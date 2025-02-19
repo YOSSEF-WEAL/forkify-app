@@ -147,7 +147,7 @@ const controlAddRecipe = async function (newRecipe)
 
 const wel = function ()
 {
-  console.log('Welcome to my little app for searching for recipes.');
+  console.log('Welcome to my app for searching for recipes.');
 };
 
 const init = function ()

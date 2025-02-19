@@ -144,6 +144,12 @@ const controlAddRecipe = async function (newRecipe)
   }
 };
 
+
+const wel = function ()
+{
+  console.log('Welcome to my little app for searching for recipes.');
+};
+
 const init = function ()
 {
   bookMarksView.addHendlerRener(controlBookMarks);
@@ -153,6 +159,7 @@ const init = function ()
   seachView.addHadlerSeach(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
   addRecipeView.addHendlerUpload(controlAddRecipe);
+  wel();
 };
 init();
 

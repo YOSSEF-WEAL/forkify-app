@@ -1,7 +1,5 @@
-import { acync } from 'regenerator-runtime';
 import { API_URl, RES_PER_PAGE, KEY } from './config.js';
 import { AJAX } from './helpers.js';
-// import { indexOf } from 'core-js/core/array.js';
 
 export const state = {
     recipe: {},

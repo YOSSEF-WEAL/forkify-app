@@ -13,6 +13,7 @@
   "dependencies": {
     "build": "^0.1.4",
     "core-js": "^3.40.0",
+    "fraction.js": "^5.2.1",
     "fractional": "^1.0.0",
     "parcel": "^2.13.3",
     "regenerator-runtime": "^0.14.1",
